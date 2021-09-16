@@ -1,0 +1,200 @@
+body{
+    font-family: 'Open Sans', sans-serif;  
+    
+}
+
+#title{
+    background-color: #ff4c68;
+    color: #fff;
+    
+    
+}
+
+.container-fluid{
+    padding: 1.5% 15% 10%;
+}
+h1{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 4rem;
+    line-height: 1.5; 
+}
+
+h3{
+    font-family: "Ubuntu";
+    font-weight: 700;
+    
+    
+    
+    
+}
+h2{
+    font-family: 'Montserrat', sans-serif;
+    
+    line-height: 1.5;
+    font-size: 2.7rem;
+}
+p{
+    color: #8f8f8f;
+}
+
+.navbar{
+    padding: 0 0 6rem;
+}
+
+.navbar-brand{
+    font-family: "Ubuntu";
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.nav-item{
+    padding: 0 20px;
+}
+.nav-link{
+    font-family: 'Montserrat-Light', sans-serif;
+
+    font-size: 1.4rem;
+}
+.download-buttons{
+    margin: 5% 6% 5% 0;
+    font-size: 1.6rem;
+    
+}
+
+
+.phone{
+    
+    transform: rotate(25deg);
+    margin-left: 3rem;
+    position: absolute;
+}
+.logos{
+    
+   /* font-size: 5rem;*/
+    margin: 0 auto 0.7rem auto;
+    /*color: #ff4c68;*/
+    color: #ff6b81;
+
+}
+.logos:hover{
+    color: #ff4c68;
+}
+#features{
+    padding: 5% 20%;
+    background-color: #fff;
+    position: relative;
+   
+}
+.card-body{
+    margin: 0 auto 0 auto;
+    text-align: center;
+    
+    
+}
+.card{
+   
+    margin-top: 3rem;
+    margin-bottom: 1rem;
+}
+
+
+#testimonials{
+    
+    background-color: #ff6b81;
+    color: white;
+    text-align: center;
+    
+}
+
+
+.test-img{
+    border-radius: 100%;
+    width: 15%;
+    margin: 20px;
+}
+.carousel-item{
+    padding: 7% 15% 3%;
+}
+
+.logo-img{
+    
+    width: 13%;
+    padding-bottom: 3%;
+    margin: 1.6rem;
+    
+}
+#press{
+    background-color: #ff6b81;
+    text-align: center;
+}
+
+.card-noborder{
+    border: none;
+}
+.card-header{
+    text-align: center;
+}
+.btn-free{
+
+}
+
+#pricing{
+    padding: 100px 12%;
+    text-align: center;
+}
+.pricing-col{
+    padding: 3% 4%;
+    
+}
+.btn-paid{
+    padding: 3% 30%;
+}
+
+@media (max-width: 1028px) {
+    
+    #title{
+        text-align: center;
+    }
+    .phone{
+        position: static;
+        transform: rotate(0deg);
+    }
+    .buttons{
+        margin-bottom: 5rem;
+    }
+}
+
+#cta{
+    background-color: #ff4c68;
+    padding: 5% 15% 5%;
+}
+
+.end-h{
+    font-size: 5.5rem;
+    color: #fff;
+    text-align: center;
+}
+.end-buttons{
+    text-align: center;
+    margin-top: 1rem;
+}
+
+#footer{
+    text-align: center;
+    padding: 5% 15% 2%;
+}
+.sm-icons{
+    font-size: 3rem;
+    
+}
+.e-i{
+    margin: auto 2%;
+    color: gray;
+}
+.e-i:hover{
+    color: rgb(107, 107, 107);
+}
+.copyright{
+    font-size: 1.4rem;
+    margin-top: 30px;
+}
